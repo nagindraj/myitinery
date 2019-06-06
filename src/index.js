@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './oldheader';
-import Main from './oldmain';
-import Footer from './oldfooter';
+import Header from './header';
+import Main from './main';
+import Footer from './footer';
 
 const App = () => {
     return(
