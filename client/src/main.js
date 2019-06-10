@@ -1,0 +1,34 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './main.css';
+import arrow from './circled-right-2.png';
+
+const Main = (props) => {
+    const infoText = 'Find your perfect trip, designed by insiders who know and love their cities';
+    const loginText = 'Want to build your own MYtinerary?'
+    return (
+        <>
+            <div className="info">
+                <span>{infoText}</span>
+            </div>
+            <div className="browse">
+                <h3>Start Browsing</h3>
+                <img className="startimg" src={arrow} alt="" onClick={props.print}></img>
+            </div>
+            <div className="loginText">
+                <span>{loginText}</span>
+                <div className="login-create">
+                    <span>
+                        <Link to="/login"> Login </Link>
+                    </span> 
+                    <span>
+                        <a href="*"> Create Account
+                        </a> 
+                    </span>
+                </div>
+            </div>
+        </>
+    )
+}
+
+export default Main;
