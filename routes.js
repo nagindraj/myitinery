@@ -2,6 +2,7 @@ const express = require('express');
 
 //get the router instance
 const router = express.Router();
+let citiesModel = require('./models/city');
  
 router.get('/', function (req, res) {
   res.send('Heyooo');
@@ -9,6 +10,12 @@ router.get('/', function (req, res) {
 
 router.get('/test', function (req, res) {
   res.send('Hello World');
+});
+
+router.get('/cities', (req, res) => {
+    citiesModel.find({}, (err, data) => { 
+        res.json({cities: data});
+    });
 });
 
 // route middleware that will happen on every request
