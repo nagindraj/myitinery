@@ -48,3 +48,75 @@
 .card-text{
     text-align: center;
 }
+
+.label-cities{
+    margin-left: 2%;
+}
+
+#myInput{
+    border: 1px solid grey;
+    width: 75%;
+    margin: 2%;
+}
+
+.list-group{
+    display: flex;
+    flex-direction: column;
+}
+.cardLikes{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.title{
+    text-align: center;
+}
+
+.hashes{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.cardBackgroundColor{
+    background-color: #17a2b833 !important;
+    width: 93% !important
+}
+
+.lableMyItineraries{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ViewAllLink{
+    text-align: center;
+    border: 1px salmon;
+    margin-top: 1rem;
+}
+
+.ChooseCity{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-right: 2.5rem;
+}
+
+.card-img-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-main {
+    display: flex;
+}
+
+.hash {
+    padding: 5px;
+}
+
+.imageClass {
+    width: 100%;
+    height: 150px;
+}

@@ -13,7 +13,9 @@ const Main = (props) => {
             </div>
             <div className="browse">
                 <h3>Start Browsing</h3>
-                <img className="startimg" src={arrow} alt="" onClick={props.print}></img>
+                <Link to="/cities">
+                    <img className="startimg" src={arrow} alt="" onClick={props.print}></img>
+                </Link>
             </div>
             <div className="loginText">
                 <span>{loginText}</span>
@@ -30,5 +32,6 @@ const Main = (props) => {
         </>
     )
 }
+
 
 export default Main;

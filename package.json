@@ -20,9 +20,13 @@
   },
   "homepage": "https://github.com/nagindraj/myitinery#readme",
   "dependencies": {
+    "bootstrap4": "0.0.1-security",
     "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongoose": "^5.5.14"
+    "font-awesome": "^4.7.0",
+    "mongoose": "^5.5.14",
+    "react-alice-carousel": "^1.14.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
