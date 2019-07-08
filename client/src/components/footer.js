@@ -1,6 +1,6 @@
 import React from 'react';
-import home from './homeIcon.png';
-import './main.css';
+import home from '../images/homeIcon.png';
+import './main/main.css';
 
 const Footer = () => {
     return (

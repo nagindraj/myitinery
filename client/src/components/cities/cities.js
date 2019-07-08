@@ -1,6 +1,6 @@
 import React from 'react';
 import CityList from './citylist';
-import { getCities, searchCities } from '../actions/cityActions';
+import { getCities, searchCities } from '../../actions/cityActions';
 import {connect} from 'react-redux';
 import './city.css';
 

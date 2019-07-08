@@ -1,0 +1,80 @@
+#photo {
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+#photo label {
+    text-decoration: underline;
+    color: blue;
+}
+
+#upload {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 20px;
+}
+#details div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#details div span {
+    width: 50%;
+}
+
+.text {
+    border: 1px solid black;
+}
+
+#toc label a{
+    text-decoration: underline;
+}
+
+#toc input {
+    margin-top: 6px;
+}
+
+#submit {
+    justify-content: center !important;
+}
+
+#submit input {
+    border: 1px solid black;
+}
+
+#account_label {
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#account {
+    margin-top: 5rem;
+}
+
+#country {
+    border: 1px solid black;
+}
+
+.asterik, .error {
+    color: red;
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './main.css'
-import Activities from './activities';
+import '../main/main.css'
+import Activities from '../activities';
 
 
 const Itinerary = (props) => {
@@ -28,7 +28,7 @@ const Itinerary = (props) => {
                             <i className="fas fa-3x fa-user"></i>
                             {props.name}
                         </div>
-                        <div className="card-body">
+                        <div className="card-body1">
                             <div className="cardLikes">
                                 <span>Likes: {props.rating}</span>
                                 <span>{props.duration} hours</span>

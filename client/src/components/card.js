@@ -1,6 +1,5 @@
 import React from 'react';
-import home from './homeIcon.png';
-import './main.css';
+import './main/main.css';
 
 
 

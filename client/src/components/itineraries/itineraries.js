@@ -1,8 +1,8 @@
 import React from 'react';
-import { getItineraries, getActivities } from './actions/itineraryActions';
+import { getItineraries, getActivities } from '../../actions/itineraryActions';
 import {connect} from 'react-redux';
 import ItineraryList from './itineraryList';
-import './main.css'
+import '../main/main.css'
 import { Link } from 'react-router-dom';
 
 
@@ -19,7 +19,7 @@ class Itineraries extends React.Component{
                         activities={this.props.activities}
                     />
                <div className="ChooseCity">
-                    <Link to="/login" > Choose another City </Link>
+                    <Link to="/" > Choose another City </Link>
                </div>
                
             </>

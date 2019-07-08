@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './main.css';
-import arrow from './circled-right-2.png';
+import arrow from '../../images/circled-right-2.png';
 
 const Main = (props) => {
     const infoText = 'Find your perfect trip, designed by insiders who know and love their cities';
     const loginText = 'Want to build your own MYtinerary?'
     return (
         <>
+           
             <div className="info">
                 <span>{infoText}</span>
             </div>
@@ -24,8 +25,7 @@ const Main = (props) => {
                         <Link to="/login"> Login </Link>
                     </span> 
                     <span>
-                        <a href="*"> Create Account
-                        </a> 
+                        <Link to="/create"> Create Account </Link>
                     </span>
                 </div>
             </div>
